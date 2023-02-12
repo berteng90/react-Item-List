@@ -10,11 +10,46 @@
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+  font-size: 1.5rem;
   justify-content: center;
+  margin: 1rem;
+}
+
+.body-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: auto;
+  width: 80vw;
+}
+
+input[type="search"] {
+  width: clamp(100px, 50vw, 300px);
 }
 
 .product-table {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+}
+
+.table-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+table {
+  width: 50vw;
+  margin: 1.5rem;
+}
+
+th {
+  font-size: 3rem;
+}
+
+td {
+  font-size: 1.5rem;
+}
+tbody {
+  text-align: center;
 }

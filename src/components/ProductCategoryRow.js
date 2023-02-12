@@ -9,7 +9,7 @@ export default function ProductCategoryRow({ products }) {
   }));
 
   return (
-    <div>
+    <div className="table-wrapper">
       {categories.map((category, index) => (
         <table key={index}>
           <thead>

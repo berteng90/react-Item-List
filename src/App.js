@@ -11,10 +11,10 @@ function App() {
     { category: "Vegetables", price: "$1", stocked: true, name: "Peas" },
   ];
   return (
-    <>
+    <div className="body-wrapper">
       <ProduchtHeader />
       <ProductCategoryRow products={products} />
-    </>
+    </div>
   );
 }
 
