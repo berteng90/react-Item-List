@@ -1,11 +1,9 @@
-import SearchBar from "./Searchbar";
-import ProductTable from "./ProductTable";
+import Searchbar from "./Searchbar";
 
-export default function FilterableProductTable({ products }) {
+export default function FilterableProductTable() {
   return (
     <div>
-      <SearchBar />
-      <ProductTable products={products} />
+      <Searchbar />
     </div>
   );
 }

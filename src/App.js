@@ -1,3 +1,4 @@
+import FilterableProductTable from "./components/FilterableProductTable";
 const PRODUCTS = [
   { category: "Fruits", price: "$1", stocked: true, name: "Apple" },
   { category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit" },
@@ -7,7 +8,6 @@ const PRODUCTS = [
   { category: "Vegetables", price: "$1", stocked: true, name: "Peas" },
 ];
 
-console.log(PRODUCTS);
 export default function App() {
-  return;
+  return <FilterableProductTable />;
 }
