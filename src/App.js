@@ -9,5 +9,5 @@ const PRODUCTS = [
 ];
 
 export default function App() {
-  return <FilterableProductTable />;
+  return <FilterableProductTable products={PRODUCTS} />;
 }
