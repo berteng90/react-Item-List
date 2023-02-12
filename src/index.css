@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-table {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
