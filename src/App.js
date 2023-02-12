@@ -1,5 +1,6 @@
 import ProduchtHeader from "./components/Product-Header.js";
-import ProductTable from "./components/ProductTable.js";
+import ProductCategoryRow from "./components/ProductCategoryRow.js";
+
 function App() {
   const products = [
     { category: "Fruits", price: "$1", stocked: true, name: "Apple" },
@@ -12,8 +13,7 @@ function App() {
   return (
     <>
       <ProduchtHeader />
-      <ProductTable />
-      <ProductTable />
+      <ProductCategoryRow products={products} />
     </>
   );
 }
