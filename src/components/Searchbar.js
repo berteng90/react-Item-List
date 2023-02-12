@@ -1,9 +1,10 @@
 export default function SearchBar() {
   return (
-    <input
-      type="search"
-      placeholder="Search for item..."
-      className="product-header searchbar"
-    ></input>
+    <form>
+      <input type="text" placeholder="Search..." />
+      <label>
+        <input type="checkbox" /> Only show products in stock
+      </label>
+    </form>
   );
 }
